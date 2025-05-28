@@ -1,7 +1,7 @@
 
 const Flex = ({children, className}) => {
     return (
-        <div className={` ${className}`}>
+        <div className={`flex items-center ${className}`}>
            {children} 
         </div>
     );

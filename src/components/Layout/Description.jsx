@@ -1,7 +1,7 @@
 
 const Description = ({className}) => {
     return (
-        <div className={`font-primary text-description ${className}`}>
+        <div className={`font-primary font-medium text-base text-description ${className}`}>
             
         </div>
     );
