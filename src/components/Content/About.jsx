@@ -11,7 +11,7 @@ const About = () => {
             <div className='bg-[#F0F0F0] py-[136px]'>
                 <Container>
                     <div className='flex'>
-                            <h3 className="bg-primary font-primary font-bold text-4xl w-[385px] text-white pt-[100px] pl-[74px] pr-[77px] leading-12">Learn more about our company</h3>
+                            <h3 className="bg-primary font-primary font-bold text-4xl w-[385px] text-white pt-[100px] flex items-center pb-[99px] pl-[74px] pr-[77px] leading-12">Learn more about our company</h3>
                         <div className='bg-[url(assets/about.png)] bg-cover bg-no-repeat bg-center pt-[168px] pb-[142px] px-[282px]'>
                             <button className='font-primary text-primary bg-white px-[30px] py-3.5 font-semibold text-base'>Learn More</button>
                         </div>
