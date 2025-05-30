@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from '../Layout/Container';
 import Flex from '../Layout/Flex';
 import logo1 from "../../assets/logo1.png"
@@ -11,14 +10,12 @@ const About = () => {
         <div>
             <div className='bg-[#F0F0F0] py-[136px]'>
                 <Container>
-                    <Flex className='bg-primary justify-between'>
-                        <div>
-                            <h3 className="font-poppins font-bold text-4xl w-[385px] text-white py-[100px] pl-[74px] pr-[77px] leading-12">Learn more about our company</h3>
-                        </div>
-                        <div className='bg-[url(assets/about.png)] pt-[168px] pb-[142px] px-[282px]'>
+                    <div className='flex'>
+                            <h3 className="bg-primary font-primary font-bold text-4xl w-[385px] text-white pt-[100px] pl-[74px] pr-[77px] leading-12">Learn more about our company</h3>
+                        <div className='bg-[url(assets/about.png)] bg-cover bg-no-repeat bg-center pt-[168px] pb-[142px] px-[282px]'>
                             <button className='font-primary text-primary bg-white px-[30px] py-3.5 font-semibold text-base'>Learn More</button>
                         </div>
-                    </Flex>
+                    </div>
                 </Container>
             </div>
             <div className="my-[117px]">
