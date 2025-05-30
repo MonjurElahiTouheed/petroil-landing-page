@@ -13,9 +13,9 @@ const Maps = () => {
             </div>
             <div className="bg-primary">
                 <Container>
-                    <Flex className='justify-between py-[47px]'>
+                    <Flex className='flex-col md:flex-row justify-between py-[47px]'>
                         <Title className="text-white text-4xl">Want to join as member branch in your area?</Title>
-                        <div><button className="font-primary font-semibold text-base px-8 py-3.5 border-2 border-white text-white">CONTACT</button></div>
+                        <div><button className="font-primary font-semibold text-base px-8 py-3.5 border-2 border-white text-white hover:bg-red-700 hover:text-yellow-100 hover:border-yellow-500 duration-150">CONTACT</button></div>
                     </Flex>
                 </Container>
             </div>

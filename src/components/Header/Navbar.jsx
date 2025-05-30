@@ -23,7 +23,7 @@ const Navbar = () => {
               {
                 navItems.map(navItem => <Link key={navItem.id} navItem={navItem}></Link>)
               }
-              <div><button className="font-primary font-semibold text-base px-8 py-3.5 border-2 border-white text-white">CONTACT</button></div>
+              <div><button className="font-primary font-semibold text-base px-8 py-3.5 border-2 border-white text-white hover:bg-red-700 hover:text-yellow-100 hover:border-yellow-500 duration-150">CONTACT</button></div>
             </Flex>
         </Flex>
         </Container> 

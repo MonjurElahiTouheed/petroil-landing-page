@@ -6,7 +6,7 @@ const Link = ({navItem}) => {
     console.log(name)
     console.log(path)
     return (
-        <li className="font-primary font-semibold text-base text-white"><a href={path}>{name}</a></li>
+        <li className="font-primary font-semibold text-base text-white hover:text-yellow-200 duration-200"><a href={path}>{name}</a></li>
         
     )
 };

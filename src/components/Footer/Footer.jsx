@@ -50,7 +50,7 @@ const Footer = () => {
   return (
     <footer className="pt-[149px] bg-[#1F1F1F] border-t-[5px] border-[#FFB800]">
       <Container>
-        <Flex className="justify-between">
+        <Flex className="flex-col md:flex-row justify-between">
           <div className="text-white">
             <div><img src={footerLogo} alt="#footerLogo" /></div>
             <Flex className="gap-[5px] mt-[33px]"><IoMailUnreadOutline size={20} /> <p className="font-primary text-sm text-white">mail@yourcompany.com</p></Flex>
@@ -79,7 +79,7 @@ const Footer = () => {
             </ul>
             <ul>
               <li className="font-primary text-base font-bold text-white">Certificate</li>
-              <li className="flex gap-[5px]">
+              <li className="flex gap-[5px] mt-[21px]">
                 <img src={cert1} alt="#cert1" />
                 <img src={cert2} alt="#cert2" />
 

@@ -23,7 +23,7 @@ const Welcome = () => {
     return (
         <div>
             <Container>
-                <Flex className="justify-around mt-[78px] mb-[100px]">
+                <Flex className="flex-col md:flex-row justify-around mt-[78px] mb-[100px]">
                     <Title className='text-5xl w-[289px] leading-[72px]'>The biggest
                         supplier on
                         the country</Title>
