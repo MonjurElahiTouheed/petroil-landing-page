@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram} from "react-icons/fa
 
 const Topbar = () => {
     return (
-        <div className="bg-[#282828] py-4">
+        <div className="bg-[#282828] py-4 border-b-[5px] border-[#FFB800]">
             <Container>
                 <Flex className="justify-between">
                     <Flex>

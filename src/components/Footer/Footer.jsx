@@ -48,7 +48,7 @@ const Footer = () => {
     }
   ]
   return (
-    <footer className="pt-[149px] bg-[#1F1F1F]">
+    <footer className="pt-[149px] bg-[#1F1F1F] border-t-[5px] border-[#FFB800]">
       <Container>
         <Flex className="justify-between">
           <div className="text-white">
