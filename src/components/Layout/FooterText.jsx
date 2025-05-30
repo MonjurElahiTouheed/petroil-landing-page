@@ -1,9 +1,9 @@
 
-const FooterText = () => {
+const FooterText = ({children}) => {
     return (
-        <div className="font-primary text-xl text-white">
-            
-        </div>
+        <p className="font-primary text-sm text-white">
+            {children}
+        </p>
     );
 };
 
