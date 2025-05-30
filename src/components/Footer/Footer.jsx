@@ -2,7 +2,6 @@ import Container from "../Layout/Container";
 import Flex from "../Layout/Flex";
 import footerLogo from '../../assets/footerLogo.png';
 import { IoMailUnreadOutline } from "react-icons/io5";
-import FooterText from "../Layout/FooterText";
 import { FiPhoneCall } from "react-icons/fi";
 import { LuMapPinned } from "react-icons/lu";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa6";
