@@ -5,4 +5,5 @@
   --font-primary: "Poppins", sans-serif;
   --color-primary: #F40404;
   --color-description: #6C6C6C;
+  --breakpoint-sm: 410px
 }
