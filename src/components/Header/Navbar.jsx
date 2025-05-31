@@ -21,24 +21,24 @@ const Navbar = () => {
   return (
     <nav className="bg-primary py-6 md:py-[30px]">
       <Container>
-        <Flex className="px-5 md:px-0 justify-between">
+        <Flex className="px-5 lg:px-0 justify-between">
           <div>
             <img src={navLogo} alt="#navLogo.png" />
           </div>
-          <Flex className="hidden md:flex list-none gap-x-[47px]">
+          <Flex className="hidden lg:flex list-none gap-x-[47px]">
             {
               navItems.map(navItem => <Link key={navItem.id} navItem={navItem}></Link>)
             }
             <div><button className="font-primary font-semibold text-base px-8 py-3.5 border-2 border-white text-white hover:bg-red-700 hover:text-yellow-100 hover:border-yellow-500 duration-150">CONTACT</button></div>
           </Flex>
-          <div className="block md:hidden" onClick={handleShowMenu}>
+          <div className="block lg:hidden" onClick={handleShowMenu}>
             {
               showMenu ? <IoCloseSharp size={28} color={'#fff'} /> : <FaBars size={28} color={'#fff'} />
             }
           </div>
         </Flex>
         {
-          showMenu && <Flex className="flex-col md:hidden list-none gap-6 md:gap-x-[47px] mt-8 md:mt-0">
+          showMenu && <Flex className="flex-col lg:hidden list-none gap-6 md:gap-x-[47px] mt-8 lg:mt-0">
             {
               navItems.map(navItem => <Link key={navItem.id} navItem={navItem}></Link>)
             }

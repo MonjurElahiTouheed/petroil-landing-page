@@ -79,8 +79,8 @@ const Footer = () => {
             <ul>
               <li className="font-primary text-base font-bold text-white">Certificate</li>
               <li className="flex gap-[5px] mt-[21px]">
-                <img src={cert1} alt="#cert1" />
-                <img src={cert2} alt="#cert2" />
+                <img className="md:w-[45%] lg:w-auto" src={cert1} alt="#cert1" />
+                <img className="md:w-[45%] lg:w-auto" src={cert2} alt="#cert2" />
 
               </li>
             </ul>
