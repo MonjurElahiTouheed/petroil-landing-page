@@ -1,6 +1,5 @@
 import About from "./About";
 import Blog from "./Blog";
-import Contact from "./Contact";
 import Maps from "./Maps";
 import Services from "./Services";
 import Welcome from "./Welcome";
@@ -13,7 +12,6 @@ const Content = () => {
             <About></About>
             <Blog></Blog>
             <Maps></Maps>
-            <Contact></Contact>
         </div>
     );
 };
