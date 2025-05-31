@@ -7,7 +7,7 @@ import logo4 from "../../assets/logo4.png"
 
 const About = () => {
     return (
-        <div>
+        <section id="about">
             <div className='bg-[#F0F0F0] py-[136px]'>
                 <Container>
                     <div className='flex flex-col items-stretch lg:flex-row lg:px-7 xl:px-0'>
@@ -29,7 +29,7 @@ const About = () => {
                 </Flex>
             </Container>
             </div>
-        </div>
+        </section>
     );
 };
 

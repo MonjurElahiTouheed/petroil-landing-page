@@ -17,7 +17,7 @@ const Services = () => {
         }
     ]
     return (
-        <section className="mt-7">
+        <section id="services" className="mt-7">
             <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-y-7 xl:gap-y-0 lg:place-items-stretch">
                 <div className="xl:justify-self-end xl:self-center xl:mr-[149px]">
                     <Title className='text-5xl xl:text-[64px] text-center xl:text-left'>Our Services</Title>

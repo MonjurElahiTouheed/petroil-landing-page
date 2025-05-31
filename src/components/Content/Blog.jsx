@@ -4,7 +4,7 @@ import { TiChevronRight } from "react-icons/ti";
 
 const Blog = () => {
     return (
-        <section className='py-[110px] bg-[#F0F0F0]'>
+        <section id='blog' className='py-[110px] bg-[#F0F0F0]'>
             <Container>
                 <Flex className="flex-col lg:flex-row justify-between gap-10 lg:px-5 xl:px-0">
                     <div className="pt-[75px] pb-[55.28px] bg-[url(assets/blog1.png)] px-[45px] bg-black/60 bg-blend-multiply w-[339px]">

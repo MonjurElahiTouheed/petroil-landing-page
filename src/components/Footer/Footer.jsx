@@ -24,7 +24,7 @@ const Footer = () => {
     },
     {
       name: "Gallery",
-      path: "#gallery"
+      path: "#welcome"
     }
   ];
 

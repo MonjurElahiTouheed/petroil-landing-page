@@ -7,3 +7,7 @@
   --color-description: #6C6C6C;
   --breakpoint-sm: 410px
 }
+
+html, body {
+  scroll-behavior: smooth;
+}

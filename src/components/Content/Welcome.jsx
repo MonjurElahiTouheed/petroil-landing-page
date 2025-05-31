@@ -20,7 +20,7 @@ const Welcome = () => {
         cssEase: "linear"
     };
     return (
-        <div>
+        <section id="welcome">
             <Container>
                 <Flex className="flex-col xl:flex-row justify-around mt-[78px] mb-[100px] gap-5.5 xl:gap-0">
                     <Title className='text-4xl xl:text-5xl xl:w-[289px] leading-12 xl:leading-[72px] text-center xl:text-left'>The biggest
@@ -52,7 +52,7 @@ const Welcome = () => {
                     </div>
                 </Slider>
             </div>
-        </div>
+        </section>
     );
 };
 
