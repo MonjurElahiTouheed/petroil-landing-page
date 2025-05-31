@@ -19,10 +19,10 @@ const Services = () => {
     ]
     return (
         <section className="mt-7">
-            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-y-7 md:gap-y-0">
-                <div className="md:ml-[390px]">
-                    <Title className='text-5xl md:text-[64px] text-center md:text-left'>Our Services</Title>
-                    <Description className="px-5 md:px-0 md:w-[405px] ml-3 text-center md:text-left mt-5 md:mt-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</Description>
+            <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-y-7 lg:gap-y-0">
+                <div className="lg:ml-[390px]">
+                    <Title className='text-5xl md:text-[64px] text-center lg:text-left'>Our Services</Title>
+                    <Description className="px-5 md:px-0 lg:w-[405px] ml-3 text-center lg:text-left mt-5 lg:mt-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</Description>
                 </div>
                 {
                     services.map(service => <Service service={service}></Service>)

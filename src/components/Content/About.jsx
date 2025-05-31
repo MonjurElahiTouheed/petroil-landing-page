@@ -22,10 +22,10 @@ const About = () => {
             <div className="my-[117px]">
                 <Container>
                 <Flex className='flex-col md:flex-row justify-between gap-14 md:gap-0'>
-                    <img src={logo1} alt="" />
-                    <img src={logo2} alt="" />
-                    <img src={logo3} alt="" />
-                    <img src={logo4} alt="" />
+                    <img className='w-auto md:w-[25%]' src={logo1} alt="" />
+                    <img className='w-auto md:w-[25%]' src={logo2} alt="" />
+                    <img className='w-auto md:w-[25%]' src={logo3} alt="" />
+                    <img className='w-auto md:w-[25%]' src={logo4} alt="" />
                 </Flex>
             </Container>
             </div>
