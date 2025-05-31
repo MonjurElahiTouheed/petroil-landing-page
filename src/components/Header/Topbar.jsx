@@ -8,16 +8,16 @@ const Topbar = () => {
     return (
         <div className="bg-[#282828] py-4 border-b-[5px] border-[#FFB800]">
             <Container>
-                <Flex className="justify-between">
+                <Flex className="flex-col gap-5 md:gap-0 md:flex-row justify-between">
                     <Flex>
                         <Flex className='gap-x-[5px]'>
                             <MdOutlineMarkEmailUnread size={20} color={'#FFF'}/>
                             <p className="font-primary text-xs text-white">mail@yourcompany.com</p>
                         </Flex>
                         <div className="h-4 p-[1px] bg-[#5C6A92] ml-[22px]"></div>
-                        <Flex className='ml-[27px]'>
+                        <Flex className='ml-[27px] gap-1'>
                             <FiPhoneCall size={20} color={'#FFF'}/>
-                            <p className="font-primary text-xs text-white">mail@yourcompany.com</p>
+                            <p className="font-primary text-xs text-white">+896 120 5889 (Toll free)</p>
                         </Flex>
                     </Flex>
                     <Flex className='gap-x-[19px]'>
