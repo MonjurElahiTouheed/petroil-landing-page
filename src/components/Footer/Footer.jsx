@@ -49,13 +49,13 @@ const Footer = () => {
   return (
     <footer className="pt-[149px] bg-[#1F1F1F] border-t-[5px] border-[#FFB800]">
       <Container>
-        <div className="flex flex-col md:flex-row justify-between md:items-center gap-10">
+        <div className="flex flex-col md:flex-row justify-between md:items-center gap-10 px-10 md:px-5 xl:px-0">
           <div className="text-white">
-            <div className="pl-10 md:pl-0"><img src={footerLogo} alt="#footerLogo" /></div>
-            <Flex className="gap-[5px] mt-[33px] pl-10 md:pl-0"><IoMailUnreadOutline size={20} /> <p className="font-primary text-sm text-white">mail@yourcompany.com</p></Flex>
-            <Flex className="gap-[5px] my-[15px] pl-10 md:pl-0"><FiPhoneCall size={20} />
+            <div><img src={footerLogo} alt="#footerLogo" /></div>
+            <Flex className="gap-[5px] mt-[33px]"><IoMailUnreadOutline size={20} /> <p className="font-primary text-sm text-white">mail@yourcompany.com</p></Flex>
+            <Flex className="gap-[5px] my-[15px]"><FiPhoneCall size={20} />
               <p className="font-primary text-sm text-white">+896 120 5889 (Toll free)</p></Flex>
-            <Flex className="gap-[5px] pl-10 md:pl-0"><LuMapPinned size={20} /> <p className="font-primary text-sm text-white">101 Baker Street, New York, USA, 12345</p></Flex>
+            <Flex className="gap-[5px]"><LuMapPinned size={20} /> <p className="font-primary text-sm text-white">101 Baker Street, New York, USA, 12345</p></Flex>
             <Flex className="gap-3 mt-8.5 justify-center md:justify-start">
               <Flex className="w-[29px] h-[29px] bg-primary justify-center items-center rounded-full"><FaFacebookF color={"white"} /></Flex>
               <Flex className="w-[29px] h-[29px] bg-primary justify-center items-center rounded-full"><FaTwitter color={"white"} /></Flex>
@@ -63,7 +63,7 @@ const Footer = () => {
               <Flex className="w-[29px] h-[29px] bg-primary justify-center items-center rounded-full"><FaInstagram color={"white"} /></Flex>
             </Flex>
           </div>
-          <div className="flex flex-col md:flex-row justify-between md:w-[60%] pl-10 md:pl-0 gap-10">
+          <div className="flex flex-col md:flex-row justify-between md:w-[60%] gap-10">
             <ul>
               <li className="font-primary text-base font-bold text-white">Company</li>
               {

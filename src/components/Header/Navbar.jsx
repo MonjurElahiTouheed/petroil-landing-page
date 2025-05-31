@@ -19,9 +19,9 @@ const Navbar = () => {
   }, [])
   console.log(navItems)
   return (
-    <nav className="bg-primary py-6 md:py-[30px]">
+    <nav className="bg-primary py-6 md:py-[30px] sticky top-0 z-[99999]">
       <Container>
-        <Flex className="px-5 lg:px-0 justify-between">
+        <Flex className="px-5 xl:px-0 justify-between">
           <div>
             <img src={navLogo} alt="#navLogo.png" />
           </div>

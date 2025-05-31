@@ -22,11 +22,11 @@ const Welcome = () => {
     return (
         <div>
             <Container>
-                <Flex className="flex-col lg:flex-row justify-around mt-[78px] mb-[100px] gap-5.5 lg:gap-0">
-                    <Title className='text-4xl lg:text-5xl lg:w-[289px] leading-12 lg:leading-[72px] text-center lg:text-left'>The biggest
+                <Flex className="flex-col xl:flex-row justify-around mt-[78px] mb-[100px] gap-5.5 xl:gap-0">
+                    <Title className='text-4xl xl:text-5xl xl:w-[289px] leading-12 xl:leading-[72px] text-center xl:text-left'>The biggest
                         supplier on
                         the country</Title>
-                    <Description className="px-5 lg:px-0 lg:w-[579px] text-center lg:text-left">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</Description>
+                    <Description className="px-5 xl:px-0 xl:w-[579px] text-center xl:text-left">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</Description>
                 </Flex>
             </Container>
             {/* <Flex className="overflow-x-hidden gap- justify-between">

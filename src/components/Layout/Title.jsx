@@ -1,9 +1,9 @@
 
 const Title = ({children, className}) => {
     return (
-        <div className={`font-primary font-bold ${className}`}>
+        <h2 className={`font-primary font-bold ${className}`}>
             {children}
-        </div>
+        </h2>
     );
 };
 
