@@ -17,7 +17,6 @@ const Navbar = () => {
       .then(res => res.json())
       .then(data => setNavItems(data));
   }, [])
-  console.log(navItems)
   return (
     <nav className="bg-primary py-6 md:py-[30px] sticky top-0 z-[99999]">
       <Container>
